@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: silver;
+}
+
+.title {
+  margin: 0;
+}
+
+.newsContainer {
+ align-items: center;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.newsContainer .article {
+  width: 700px;
+  border: 2px solid white;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.newsContainer .article img{
+  width: 600px;
+}
+
+.newsContainer .article p {
+  width: 600px;
+}
